@@ -1,0 +1,23 @@
+{
+  "name": "wavy-bg",
+  "version": "1.0.0",
+  "description": "The trendy wavy bg's people seem to want but cant find",
+  "main": "src/index.html",
+  "repository": "git@github.com/jream/wavy-bg.git",
+  "author": "Jesse Boyer <hello@jream.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "npm run develop",
+    "develop": "parcel serve $npm_package_main --no-cache",
+    "build": "parcel build $npm_package_main"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.20.1",
+    "stylelint": "^10.0.1"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^18.3.0"
+  }
+}

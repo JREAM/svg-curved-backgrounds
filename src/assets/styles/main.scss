@@ -1,0 +1,76 @@
+// __________________________________________________________________
+// Do not import Normalize CSS (Its included on index.html), this
+// way a user can easily grab plain CSS if they want.
+//
+// Backgrounds
+// __________________________________________________________________
+@import url('https://fonts.googleapis.com/css?family=Neucha|Stylish');
+
+body {
+  background: #aaa;
+  color: #ccc;
+  font-size: 16pt;
+  font-family: 'Stylish', sans-serif;
+}
+
+.container {
+  background: #fff;
+  display: block;
+  width: 100%;
+  color: #2d2d2d;
+  min-height: 300px;
+  margin-bottom: 40px;
+  padding-bottom: 50px;
+  border-top: 3px solid #4d4d4d;
+  border-bottom: 3px solid #4d4d4d;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Neucha', cursive;
+    color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    font-size: 2em;
+    text-shadow: 1px 1px 4px #000;
+    background: #4d4d4d;
+    display: block;
+  }
+}
+
+footer {
+  ul li {
+    list-style-type: none;
+  }
+  margin: 120px auto 60px auto;
+  max-width: 75%;
+  text-align: right;
+  color: #2d2d2d;
+}
+
+@mixin bg-svg($path, $position: bottom center) {
+  background-size: cover;
+  filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);
+  background-image: url(../images/#{$path}.svg);
+  background-position: $position;
+  background-repeat: no-repeat;
+}
+
+.bg-wave {
+  @include bg-svg('bg-wave');
+  height: 140px;
+}
+
+.bg-inward-deep {
+  @include bg-svg('bg-inward-deep');
+  height: 300px;
+}
+
+.bg-inward {
+  @include bg-svg('bg-inward');
+  height: 300px;
+}
+
+.bg-outward {
+  @include bg-svg('bg-outward');
+  height: 140px;
+}

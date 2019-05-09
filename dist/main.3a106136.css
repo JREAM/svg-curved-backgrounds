@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Neucha|Stylish");
+body {
+  background: #aaa;
+  color: #ccc;
+  font-size: 16pt;
+  font-family: "Stylish", sans-serif;
+}
+
+.container {
+  background: #fff;
+  display: block;
+  width: 100%;
+  color: #2d2d2d;
+  min-height: 300px;
+  margin-bottom: 40px;
+  padding-bottom: 50px;
+  border-top: 3px solid #4d4d4d;
+  border-bottom: 3px solid #4d4d4d;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.container h1, .container h2, .container h3, .container h4, .container h5, .container h6 {
+  font-family: "Neucha", cursive;
+  color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+  font-size: 2em;
+  text-shadow: 1px 1px 4px #000;
+  background: #4d4d4d;
+  display: block;
+}
+
+footer {
+  margin: 120px auto 60px auto;
+  max-width: 75%;
+  text-align: right;
+  color: #2d2d2d;
+}
+footer ul li {
+  list-style-type: none;
+}
+
+.bg-wave {
+  background-size: cover;
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+  background-image: url(/bg-wave.330302fd.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 140px;
+}
+
+.bg-inward-deep {
+  background-size: cover;
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+  background-image: url(/bg-inward-deep.6aa3e9c1.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.bg-inward {
+  background-size: cover;
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+  background-image: url(/bg-inward.a384cccc.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.bg-outward {
+  background-size: cover;
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+  background-image: url(/bg-outward.4a8d0f3d.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 140px;
+}
+
+/*# sourceMappingURL=/main.3a106136.css.map */
