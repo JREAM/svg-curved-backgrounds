@@ -19,6 +19,10 @@ Free for all, hope it helps. If you want to setup and customize you need NodeJS.
 
 ---
 
+<img src="https://raw.githubusercontent.com/JREAM/svg-curved-backgrounds/master/preview.png" alt="preview" />
+
+---
+
 ## Paths and Files
 
 This all may not be necessary. You can just download the images where they are located below, do what you
